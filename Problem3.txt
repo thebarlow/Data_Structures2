@@ -1,0 +1,46 @@
+﻿Matthew Barlow
+
+
+Output for Problem3.java:
+
+
+For n= 1000
+Run time for set1 is: 0
+Run time for set2 is: 4
+Run time for set3 is: 0
+
+
+For n= 10000
+Run time for set1 is: 2
+Run time for set2 is: 256
+Run time for set3 is: 0
+
+
+For n= 20000
+Run time for set1 is: 2
+Run time for set2 is: 999
+Run time for set3 is: 0
+
+
+For n= 50000
+Run time for set1 is: 6
+Run time for set2 is: 6133
+Run time for set3 is: 0
+
+
+For n= 100000
+Run time for set1 is: 10
+Run time for set2 is: 23828
+Run time for set3 is: 0
+
+
+For n= 150000
+Run time for set1 is: 15
+Run time for set2 is: 56124
+Run time for set3 is: 0
+
+
+Explanations:
+Set1 increases its run time linearly, as its Big O cost is n.
+Set2 increases run time exponentially as its Big O cost is n^2.
+Set3 doesn’t show anything because its Big O cost is log(n) and maybe my computer hates me.
